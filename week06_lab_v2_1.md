@@ -455,8 +455,13 @@ ElevatedButton(
 
 > ✅ **Checkpoint 3.1** ถ่ายภาพหน้าจอ Debug Console ที่แสดง Status Code (ควรเป็น `201 Created`) พร้อม Response Body 
 ```text
-บันทึกรูปและคำตอบที่นี่
+ผลการทดสอบ: การเรียก HTTP PUT สำเร็จ
+Status Code: 200 OK
+Response Body แสดงข้อมูลที่ถูกส่งไปแก้ไข ได้แก่ id, title, body และ userId
 ```
+
+<img width="270" height="182" alt="image" src="https://github.com/user-attachments/assets/23d0bc98-7ae5-4434-925f-a51e6785904b" />
+
 
 ### ขั้นตอนที่ 3.2 — 🧠 คิดเอง/ออกแบบเอง
 
@@ -482,11 +487,8 @@ Future<void> updateDemoPost() async {
 > ✅ **Checkpoint 3.2** ถ่ายภาพหน้าจอ Debug Console ที่แสดง Status Code ของการเรียก PUT (ควรเป็น `200 OK`) 
 
 ```text
-ผลการทดสอบ: การเรียก HTTP PUT สำเร็จ
-Status Code: 200 OK
-Response Body แสดงข้อมูลที่ถูกส่งไปแก้ไข ได้แก่ id, title, body และ userId
+
 ```
-<img width="585" height="332" alt="image" src="https://github.com/user-attachments/assets/b34cb966-410c-4a0a-b5b7-018bdc4627fe" />
 
 ---
 
