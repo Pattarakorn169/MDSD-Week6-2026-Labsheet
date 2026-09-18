@@ -246,8 +246,23 @@ class WeatherService {
 > ✅ **Checkpoint 2.2** บันทึกผลการตรวจสอบ `statusCode` อย่างน้อย 2 กรณี (สำเร็จ และ 404) ตามเกณฑ์ข้างต้น
 
 ```text
-บันทึกรูปและคำตอบที่นี่
+**กรณีที่ 1: เรียกข้อมูลสำเร็จ**
+* ชื่อเมืองที่ทดสอบ: Bangkok
+* Status Code ที่ได้: **200 OK**
+* ผลการตรวจสอบ: สามารถเรียกข้อมูลสภาพอากาศจาก OpenWeather API ได้สำเร็จ
+
+**กรณีที่ 2: ไม่พบเมือง**
+* ชื่อเมืองที่ทดสอบ: abcdefxyz
+* Status Code ที่ได้: **404 Not Found**
+* ผลการตรวจสอบ: ไม่พบข้อมูลเมืองที่ระบุ จึงแสดงข้อความแจ้งเตือนว่าไม่พบเมืองที่ค้นหา
+
 ```
+
+<img width="1435" height="898" alt="image" src="https://github.com/user-attachments/assets/b2957d4d-137b-4901-a3d9-e889061b50d2" />
+
+<img width="1427" height="675" alt="image" src="https://github.com/user-attachments/assets/e6e5d0db-2de2-4dc9-a713-3458df10fa44" />
+
+
 
 ### ขั้นตอนที่ 2.4 — 🧠 คิดเอง/ออกแบบเอง
 
