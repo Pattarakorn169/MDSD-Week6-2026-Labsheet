@@ -487,8 +487,9 @@ Future<void> updateDemoPost() async {
 > ✅ **Checkpoint 3.2** ถ่ายภาพหน้าจอ Debug Console ที่แสดง Status Code ของการเรียก PUT (ควรเป็น `200 OK`) 
 
 ```text
-
+การเรียก HTTP Method แบบ PUT สำเร็จ โดยได้รับ Status Code 200 OK และได้รับ Response Body กลับมาจากเซิร์ฟเวอร์ ซึ่งแสดงข้อมูลรหัสนักศึกษาและชื่อนักศึกษาที่ส่งไป
 ```
+<img width="313" height="221" alt="image" src="https://github.com/user-attachments/assets/502f79cd-7953-4778-b4ac-3b5c810d60fe" />
 
 ---
 
