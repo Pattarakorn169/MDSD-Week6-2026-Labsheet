@@ -390,6 +390,23 @@ class MyApp extends StatelessWidget {
 บันทึกรูปที่นี่
 ```
 
+```
+1. ค้นหาเมืองที่มีจริง
+```
+<img width="951" height="427" alt="image" src="https://github.com/user-attachments/assets/fe7c5fb1-2234-4db9-beb9-4557caee087b" />
+
+```
+2. ค้นหาเมืองที่ไม่มีอยู่จริง
+```
+<img width="946" height="510" alt="image" src="https://github.com/user-attachments/assets/d83f6599-f6ec-4499-ad75-351d73842ad9" />
+
+```
+3. ปิด Wi-Fi/Data บนเครื่องแล้วลองค้นหา
+```
+<img width="952" height="472" alt="image" src="https://github.com/user-attachments/assets/43662207-8d1f-4f64-b2f0-4f6cea7498d7" />
+
+<img width="942" height="457" alt="image" src="https://github.com/user-attachments/assets/57bcf822-db88-4462-8b52-a69a774bca41" />
+
 ---
 
 ## ส่วนที่ 3: ทดลองเรียก HTTP Method อื่นนอกเหนือจาก GET
