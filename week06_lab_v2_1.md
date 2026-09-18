@@ -90,8 +90,15 @@ https://api.openweathermap.org/data/2.5/weather?q=Bangkok&appid=YOUR_API_KEY&uni
 > ✅ **Checkpoint 1.2** บันทึกด้านล่างว่านักศึกษาเลือกทดสอบกรณีใด คาดการณ์ Status Code ไว้ว่าอะไร และ Status Code จริงที่ได้คืออะไร (ตรงหรือไม่ตรงกับที่คาดไว้) พร้อมอธิบายว่าผลลัพธ์ที่ได้ตรงกับช่วง Status Code ใดตามตารางในบทเรียนหัวข้อ 6.3
 
 ```text
-บันทึกรูปและคำตอบที่นี่
+ใส่ appid (API Key) ผิด
+คาดการณ์ Status Code: 401 Unauthorized
+Status Code จริงที่ได้: 401 Unauthorized
+ผลการทดสอบ: ผลที่ได้ตรงกับที่คาดการณ์ไว้
+อธิบาย: Status Code 401 อยู่ในช่วง 4xx Client Error ซึ่งเป็นข้อผิดพลาดจากคำขอของฝั่งผู้ใช้ ในกรณีนี้เกิดจากการระบุ API Key ไม่ถูกต้อง ทำให้เซิร์ฟเวอร์ไม่อนุญาตให้เข้าถึงข้อมูลสภาพอากาศ
 ```
+
+<img width="1436" height="652" alt="image" src="https://github.com/user-attachments/assets/788bda41-af9e-4f86-90da-6bdc65c8df67" />
+
 ---
 
 ## ส่วนที่ 2: สร้าง Model Class และเรียก API ด้วย http Package
