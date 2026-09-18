@@ -539,13 +539,24 @@ GET https://fakestoreapi.com/products
 ไม่ว่าจะเลือกแบบไหน เป้าหมายคือต้องเห็น **ผลลัพธ์จริงจาก Fake Store API** ปรากฏขึ้นมา  ถ้ารันแล้วเจอ error หรือโค้ดจาก Gemini ผิดพลาด (เช่น import ขาด, ชื่อ field ไม่ตรงกับ JSON จริง) ให้จดบันทึกข้อความ error และวิธีแก้ไขไว้ในด้านล่าง
 
 ```text
-บันทึก error และการแก้ไขที่นี่
+พบข้อผิดพลาดขณะเรียกใช้ ProductListPage
+Error:
+Error when reading 'lib/product_list_page.dart':
+The system cannot find the file specified.
+สาเหตุ:
+ยังไม่มีไฟล์ product_list_page.dart ในโฟลเดอร์ lib
+วิธีแก้ไข:
+สร้างไฟล์ lib/product_list_page.dart และเพิ่มโค้ด ProductListPage จากนั้นตรวจสอบ import 'product_list_page.dart'; ใน main.dart และรันโปรแกรมใหม่
 ```
 
 > ✅ **Checkpoint 4.2** ถ่ายภาพหน้าจอ Debug Console ที่แสดงผลลัพธ์จริงจากการเรียก `fetchAiProducts()` (เช่น รายการสินค้าที่ print ออกมา) 
 ```text
 บันทึกรูปที่นี่
 ```
+
+<img width="361" height="916" alt="image" src="https://github.com/user-attachments/assets/e86e0b9d-d5ff-4c6d-99a1-b06164978342" />
+
+
 
 ---
 
