@@ -258,8 +258,13 @@ class WeatherService {
 
 ```
 
+```
+แบบสำเร็จ
+```
 <img width="1435" height="898" alt="image" src="https://github.com/user-attachments/assets/b2957d4d-137b-4901-a3d9-e889061b50d2" />
-
+```
+แบบไม่สำเร็จ404
+```
 <img width="1427" height="675" alt="image" src="https://github.com/user-attachments/assets/e6e5d0db-2de2-4dc9-a713-3458df10fa44" />
 
 
