@@ -195,6 +195,9 @@ void main() {
 ```text
 บันทึกรูปที่นี่
 ```
+
+<img width="475" height="155" alt="image" src="https://github.com/user-attachments/assets/a90248f0-11c3-4cba-9a5c-4d2393db5dbb" />
+
 ### ขั้นตอนที่ 2.3 — 🧠 คิดเอง/ออกแบบเอง
 
 สร้างไฟล์ `lib/services/weather_service.dart` แล้วเขียน `WeatherService` ต่อจากตัวอย่างโครงเริ่มต้นด้านล่างนี้  
