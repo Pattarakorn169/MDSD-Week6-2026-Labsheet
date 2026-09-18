@@ -482,8 +482,12 @@ Future<void> updateDemoPost() async {
 > ✅ **Checkpoint 3.2** ถ่ายภาพหน้าจอ Debug Console ที่แสดง Status Code ของการเรียก PUT (ควรเป็น `200 OK`) 
 
 ```text
-บันทึกรูปและคำตอบที่นี่
+ผลการทดสอบ: การเรียก HTTP PUT สำเร็จ
+Status Code: 200 OK
+Response Body แสดงข้อมูลที่ถูกส่งไปแก้ไข ได้แก่ id, title, body และ userId
 ```
+<img width="585" height="332" alt="image" src="https://github.com/user-attachments/assets/b34cb966-410c-4a0a-b5b7-018bdc4627fe" />
+
 ---
 
 ## ส่วนที่ 4: ใช้ AI ช่วย Generate โค้ด API Client
